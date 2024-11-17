@@ -1,0 +1,153 @@
+.container {
+    max-width: 900px; /* Ajuster la largeur maximale du conteneur */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .image-container {
+    flex: 0 0 40%; /* Largeur de 40% pour l'image */
+    display: flex;
+}
+
+.professional-image {
+    top:5%;
+    width:100%; /* Ajuste la largeur à 100% de son conteneur */
+    height: 100%; /* Conserve le ratio d'aspect */
+    display:flex; /* Assure que l'image soit un bloc */
+}
+.site-section  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Adjust the padding as needed */
+     margin-top:-360px;
+     margin-left:25%;
+      max-width:50%;
+      background-color: RGB(38, 152, 147,0.1);
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .section-content {
+    width: 90%; /* Adjust the width as needed */
+  }
+  
+  .elevate-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .elevate-content {
+  text-align: center;
+    font-size: 25px;
+    color: #555;
+  }
+  .services-section {
+    display: flex; /* Utiliser flexbox pour aligner les rectangles */
+    justify-content: space-between; /* Espacement entre les rectangles */
+    margin-top: 30px; /* Marge au-dessus des rectangles */
+    margin-left:35%;
+    max-width: 30%; /* Largeur maximale */
+    flex-wrap: wrap; /* Permet aux rectangles de s'ajuster si l'espace est trop petit */
+}
+
+.service-box {
+    flex: 1; /* Chaque rectangle prendra une largeur égale */
+    width:max-content;
+    margin: 10px; /* Marge autour des rectangles */
+    padding: 10px; /* Espacement interne */
+    background-color: RGB(38, 152, 147,0.5); /* Couleur de fond */
+    color: RGB(38, 152, 147); /* Couleur du texte */
+    font-weight: bold;
+    text-align: center; /* Centrer le texte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    transition: background-color 0.3s; /* Transition pour changement de couleur */
+}
+
+.service-box:hover {
+    background-color:aquamarine; /* Changement de couleur au survol */
+}
+.container {
+    max-width: 900px; /* Ajuster la largeur maximale du conteneur */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .animated-title {
+    font-size: 36px;
+    color: #193441;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .column {
+    width: 30%; /* Ajuster la largeur des colonnes selon vos besoins */
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre */
+    padding: 20px;
+    text-align: center;
+    background-color: RGB(38, 152, 147,0.3); /* Blanc sale (off-white) */
+    border-radius: 8px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ajuster la hauteur des cartes selon vos besoins */
+    line-height: 1.2; /* Ajuster la propriété line-height pour rapprocher les lignes de texte */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Ombre agrandie au survol */
+  }
+  
+  .card .Sauve {
+    background-color: RGB(38, 152, 147,0.3); /* Couleur de fond pour le job Développeur (blanc sale) */
+  }
+  
+  .securite {
+    background-color: RGB(38, 152, 147,0.3); /* Couleur de fond pour le job Scientist (blanc sale) */
+  }
+  
+  .sensibilisation {
+    background-color: RGB(38, 152, 147,0.3); /* Couleur de fond pour le job Designer (blanc sale) */
+  }
+  
+  .demande {
+    color: #193441;
+    font-weight: bold;
+    margin-top: auto; /* Placez-le en bas de la carte */
+  }
+  
+  img {
+    width: 100%;
+    max-height: 300px; /* Ajuster la hauteur maximale de l'image */
+    object-fit: cover; /* Ajuste la taille de l'image sans déformer */
+    border-radius: 8px; /* Ajout d'une bordure arrondie à l'image */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

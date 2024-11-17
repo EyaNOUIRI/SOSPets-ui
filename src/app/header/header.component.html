@@ -1,0 +1,22 @@
+<nav id="navbar" class="navbar" >
+    <div class="nav-wrapper">
+          <div class="logo">
+                 <img class="logo" src="..\assets\logo.png">
+          </div>
+          <ul id="menu">
+        <li><a routerLink="/home">Actualite</a></li>
+     <li>
+     <li><a routerLink="/about">Notre Mission</a></li>
+     <li><a routerLink="/about">Nos Partenaires</a></li>
+      <li><a routerLink="/contact">Contactez Nous</a></li>
+      </ul>
+      </div>
+                   <div class="menuIcon">
+                    <span class="icon icon-bars"></span>
+                    <span class="icon icon-bars overlay"></span>
+                  </div>
+                      <a routerLink="/login"><button  class=" btn-primary" >Login </button></a>  <!-- (click)="login()""-->
+                      <a routerLink="/signup"><button  class=" btn-primary"  >sign up </button></a>   <!-- (click)="signup()"-->
+                      <main><router-outlet></router-outlet></main>
+            
+  </nav>

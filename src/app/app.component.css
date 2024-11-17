@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    margin: 0;
+    
+  }
+.container {
+    max-width: 900px; /* Ajuster la largeur maximale du conteneur */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .animated-title {
+    font-size: 36px;
+    color: #193441;
+    animation: fadeIn 1s ease-in-out;
+    justify-content:right; /* Aligne l'image à droite */
+
+  }
+  .image-container {
+    flex: 0 0 20%; /* Largeur de 40% pour l'image */
+    display: flex;
+    justify-content:right /* Aligne l'image à droite */
+}
+
+.professional-image {
+    max-width: 80%; /* Ajuste la largeur à 100% de son conteneur */
+    height: 80%; /* Conserve le ratio d'aspect */
+    display: block; /* Assure que l'image soit un bloc */
+}
